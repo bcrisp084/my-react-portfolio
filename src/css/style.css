@@ -1,7 +1,4 @@
 
-.navbar {
-  background-color: rgb(107, 105, 105);
-}
 #info1 {
   background-color: rgb(107, 105, 105);
   color: white;
@@ -29,9 +26,6 @@
   width: 100%;
 }
 
-.nav-link {
-  color: white;
-}
 #btn {
   margin-top: 20px;
   background-color: transparent;
