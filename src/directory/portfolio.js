@@ -15,9 +15,9 @@ const Portfolio=() => {
         <div className='projectContainer'>
             <main className='container'>
                 <div className='row'>
-                    <section className='col-md-9'>
+                    <section className='col-md-12'>
                         <div>
-                            <h1 id ="header">Portfolio</h1>
+                            <h1 id="header">Portfolio</h1>
                             <hr />
                         </div>
                         <div className='row'>
