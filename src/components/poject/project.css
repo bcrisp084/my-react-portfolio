@@ -1,0 +1,31 @@
+.projectLinks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .projectLinks > a {
+      color: rgb(149, 203, 250);
+      border-radius: 5px;
+      margin: 10px 10px 0 0;
+  }
+
+  .projectLinks > a:hover {
+      color: aliceblue;
+  }
+
+  .color img {
+    -webkit-transition: all 0.3s ease;
+    border-radius: 5px;
+    border: black ;
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+  }
+
+  .color img:hover {
+    filter: none;
+    transition: 0.3s ease;
+    box-shadow: 0 3px 20px #c4c8f1;
+  }
