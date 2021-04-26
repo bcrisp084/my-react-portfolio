@@ -16,7 +16,10 @@ const About=() => {
         </div>  
       <div className="container">
         <div className="row">
-          <div className="col-md-4" id="info1">
+          <div className="col-md-12" id="info1">
+          <img
+              src={image} className='profile' alt='profile' style={{height:'400px', width:'400px'}} 
+            />
             <p>
               Hello and welcome to my profile. My name is Brian Crisp and i would
               like to share a little bit about who i am. Currently i am studying
@@ -29,14 +32,16 @@ const About=() => {
               more ready for the journey. I am looking for my first job in the
               programming field and i am very eager to learn. Thank you for
               visiting and i hope you enjoy.
+           
             </p>
           </div>
-          <div className="col-md-4">
+          
+          {/* <div className="col-md-4">
             <img
               src={image} className='profile' alt='profile'
             />
-          </div>
-          <div className="col-md-4" id="info2">
+          </div> */}
+          {/* <div className="col-md-4" id="info2">
             <p><b>Skills</b></p>
             <ul>
               <li>Power Point</li>
@@ -54,7 +59,7 @@ const About=() => {
               Fun Fact: I have been learning spanish everyday for the last 130
               days and i love every minute of it.
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
       </main>
