@@ -1,5 +1,5 @@
 import React from 'react';
-import Project from '../components/poject/project';
+import Project from '../components/project/project';
 import astrozoderImage from '../images/astrozoders.png';
 import dailyToDoImage from '../images/daily-to-do.png';
 import gottaGoImage from '../images/gottaGO.png';
