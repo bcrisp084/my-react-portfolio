@@ -4,22 +4,21 @@ import image from '../images/Family.jpg';
 
 const About=() => {
     return(
-      <div>
         <main className="container">
         <div className="row">
           <div className="col-md-12">
-            <div className="page header">
               <h1 id="header" >About Me</h1>
               <hr />
             </div>
           </div>
-        </div>  
-      <div className="container">
+      <div className="container1">
         <div className="row">
-          <div className="col-md-12" id="info1">
+          <div className="col-md-6">
           <img
-              src={image} className='profile' alt='profile' style={{height:'400px', width:'400px'}} 
+              src={image} className='profile' alt='profile'  
             />
+             </div>
+             <div className="col-md-6 text">
             <p>
               Hello and welcome to my profile. My name is Brian Crisp and i would
               like to share a little bit about who i am. Currently i am studying
@@ -32,39 +31,11 @@ const About=() => {
               more ready for the journey. I am looking for my first job in the
               programming field and i am very eager to learn. Thank you for
               visiting and i hope you enjoy.
-           
-            </p>
+              </p>
+              </div>
+            </div>
           </div>
-          
-          {/* <div className="col-md-4">
-            <img
-              src={image} className='profile' alt='profile'
-            />
-          </div> */}
-          {/* <div className="col-md-4" id="info2">
-            <p><b>Skills</b></p>
-            <ul>
-              <li>Power Point</li>
-              <li>Javascript</li>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>AJAX</li>
-              <li>JQUERY</li>
-              <li>Node.js</li>
-              <li>MYSQL</li>
-              <li>Express</li>
-              <li>OOP</li>
-            </ul>
-            <p>
-              Fun Fact: I have been learning spanish everyday for the last 130
-              days and i love every minute of it.
-            </p>
-          </div> */}
-        </div>
-      </div>
       </main>
-      </div>
-
     )
 };
 export default About;

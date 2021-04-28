@@ -1,14 +1,4 @@
 
-#info1 {
-  background-color: rgb(107, 105, 105);
-  color: white;
-  border: 3px solid #000000;
-  padding: 10px;
-  display: flex;
-  width: 100%;
-  height: auto;
- 
-}
 #header {
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: rgb(255, 255, 255);
@@ -17,40 +7,20 @@
 
 .profile {
   display: flexbox;
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
-/* #info2 {
-  background-color: rgb(107, 105, 105);
+.container1 {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.text {
   color: white;
-  position: absolute;
-  right: 0px;
-  width: 300px;
-  border: 3px solid #000000;
-  padding: 10px;
-} */
+  margin-top: 50px;
+  font-size: larger;
 
-
-
-/* #btn {
-  margin-top: 20px;
-  background-color: transparent;
-  margin-left: 100px;
-} */
-
-/* #phone {
-  background-color: rgb(202, 205, 211);
-  color: white;
-} */
-
-.contact {
-  margin-left: 15px;
-  box-sizing: border-box;
-  background-color: #dc3545;
-  height: 35px;
-  color: white;
-  width: 210px;
-  text-align: center;
 }
 

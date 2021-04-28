@@ -7,6 +7,17 @@ const Header=() => {
         <Link to="/" className="name-background" 
           ><b>Brian Crisp</b>
         </Link>
+        <button
+        className="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarText"
+        aria-controls="navbarText"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
         <div className="collapse navbar-collapse" id="navbarText">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item active">
