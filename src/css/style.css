@@ -1,7 +1,7 @@
 
 #header {
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: rgb(255, 255, 255);
+  -webkit-text-stroke-color: rgb(180, 179, 179);
   color: rgb(0, 0, 0);
 }
 
@@ -9,6 +9,7 @@
   display: flexbox;
   max-width: 100%;
   height: auto;
+  border-radius: 50%;
 }
 
 .container1 {
