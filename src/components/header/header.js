@@ -7,6 +7,12 @@ const Header=() => {
         <Link to="/" className="name-background" 
           ><b>Brian Crisp</b>
         </Link>
+        <Link
+          href="tel:443-683-3879"
+          type="button"
+          id="btn"
+          >(443)-683-3879</Link>
+        
         <button
         className="navbar-toggler"
         type="button"
@@ -16,7 +22,7 @@ const Header=() => {
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"><i class="fas fa-arrow-down"></i></span>
       </button>
         <div className="collapse navbar-collapse" id="navbarText">
           <ul className="navbar-nav ml-auto">

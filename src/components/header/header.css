@@ -6,3 +6,17 @@
   a.nav-link {
     color: white;
   }
+
+  .navbar-toggler-icon {
+    background-color: white;
+    color: black;
+  }
+
+  #btn{
+    margin-left:20px;
+    font-size: 20px;
+  }
+
+  .name-background{
+    font-size: 30px;
+  }

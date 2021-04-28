@@ -29,8 +29,18 @@ const About=() => {
               wish i had discovered that a long time ago but, here i am. I am so
               excited to see the where the road ahead takes me and i couldn't be
               more ready for the journey. I am looking for my first job in the
-              programming field and i am very eager to learn. Thank you for
-              visiting and i hope you enjoy.
+              programming field and i am very eager to learn. Please feel free 
+              to use the link below to View or download a copy of my resume. 
+              Thank you for visiting and i hope you enjoy.
+              <br></br>
+            <a
+              href="https://docs.google.com/document/d/1GGcZ0exNR5aGWf_GQ2vOHDGYmQHUdiMDLvSzcVS071U/edit"
+              download="newfilename"
+              className="btn btn-primary resume"
+              id="btn"
+              ><img src="https://img.icons8.com/color/48/000000/paper.png"/>
+              Resume</a
+            >
               </p>
               </div>
             </div>
