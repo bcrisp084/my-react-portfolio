@@ -7,11 +7,11 @@ const Header=() => {
         <Link to="/" className="name-background" 
           ><b>Brian Crisp</b>
         </Link>
-        <Link
+        <a
           href="tel:443-683-3879"
           type="button"
           id="btn"
-          >(443)-683-3879</Link>
+          >(443)-683-3879</a>
         
         <button
         className="navbar-toggler"
