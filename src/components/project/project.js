@@ -3,7 +3,7 @@ import "./project.css";
 
 
 
-const Project = ({ thumbnail, altText, liveLink, sourceCode }) => {
+const Project = ({ thumbnail, altText, liveLink, sourceCode, }) => {
     return(
     <div className="col-lg-6 mt-4 color">
     <a href={liveLink} target="_blank" rel="noreferrer">

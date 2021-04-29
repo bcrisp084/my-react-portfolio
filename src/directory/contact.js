@@ -23,7 +23,9 @@ const Contact=()=>{
                         <textarea id="form_message" name="message" className="form-control" placeholder="message" rows="4"
                             required="required" data-error="Please,leave us a message."></textarea>
                     </section>
-                    <button type="submit" className="btn btn-info button_margin" style={{backgroundColor: 'blue'}}>Submit</button>
+
+                    <button type="submit" className="btn btn-info button_margin" style={{backgroundColor: 'blue', color: 'white'}}>
+                        <a href="mailto:">Submit</a></button>
                 </form>
             </div>
         </div>
